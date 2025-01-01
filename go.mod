@@ -1,4 +1,4 @@
-module github.com/refoo0/sca-trnsitiv
+module github.com/refoo0/sca/apps/sca-trnsitiv
 
 go 1.23.2
 
