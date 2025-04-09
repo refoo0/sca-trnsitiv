@@ -6,3 +6,8 @@ type JWTService struct {
 }
 
 // NewJWTService creates a new instance of the JWTService with a given secret key
+func NewJWTService(secretKey []byte) *JWTService {
+	return &JWTService{
+		secretKey: secretKey,
+	}
+}

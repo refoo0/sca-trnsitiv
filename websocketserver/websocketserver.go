@@ -7,3 +7,7 @@ package websocketserver
 // EchoHandler handles incoming WebSocket connections and echoes messages back to the client
 type WebSocketServer struct {
 }
+
+func NewWebSocketServer() *WebSocketServer {
+	return &WebSocketServer{}
+}
